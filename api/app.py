@@ -11,9 +11,7 @@ from collections import defaultdict
 # Import defaultdict to handle the grouping of timetable entries by days more easily
 
 app = Flask(__name__)
-# Initialize the Flask application, which is the core of the web app
-self.teachers = pd.read_csv('api/dataset.csv')
-self.venues = pd.read_csv('api/VENUECSV.csv')
+# Initialize the Flask application, which is the core of the web ap
 
 class ScheduleSystem:
     # Define a class to handle the timetable generation and availability checks
