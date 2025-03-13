@@ -12,8 +12,6 @@ from collections import defaultdict
 
 app = Flask(__name__)
 # Initialize the Flask application, which is the core of the web app
-self.teachers = pd.read_csv('api/dataset.csv')
-self.venues = pd.read_csv('api/VENUECSV.csv')
 
 class ScheduleSystem:
     # Define a class to handle the timetable generation and availability checks
